@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Warangal App</string>
+
+    <array name="list_icon">
+        <item>R.drawable.hanamkonda</item>
+        <item>R.drawable.thousandpillar</item>
+        <item>R.drawable.warangalfort</item>
+        <item>R.drawable.ramapa</item>
+    </array>
+
+    <string-array name="list_titles">
+        <item>Hanamkonda</item>
+        <item>Thousand Pillar</item>
+        <item>Warangal Fort</item>
+        <item>Ramapa</item>
+    </string-array>
+
+    <string name="warangal_fort">        In the early 13th century during the reign of Ganapatideva, the capital was moved from Hanamkonda to the new city of Warangal,
+	which was laid out in a circular plan with three concentric rings of walls. The first ring which constitutes the Fort has high walls made of
+	massive granite blocks laid without mortar. Inner faces of the walls have steps ascending to a path that runs along the top.
+	Entrance gateways like the one seen here were renovated in Bahmani times as is clear from the sculpted fragments reused from
+	dismantled temples. Here a temple ceiling fragment is placed in a niche. The image is of Vishnu carried by Garuda
+	and surrounded by attendants. Above this some granite blocks are replaced by panels of elephants and yali.</string>
+    <string name="drawerOpen">Open</string>
+    <string name="drawerClose">Close</string>
+    <string name="about">         Warangal About this sound pronunciation  is a city and district headquarters of Warangal district in the Indian state of Telangana.
+ Warangal is located 148 kilometres (92 mi) northeast of the state capital of Hyderabad and is the administrative headquarters of
+ Warangal District. Warangal area is a combination of Warangal, Hanmakonda and Kazipet. Warangal is the second-biggest city
+ after Hyderabad in Telangana. It is well known for heritage and has been included in the scheme of Heritage City Development
+ and Augmentation Yojana (HRIDAY) along with eleven other cities of the country.[8] It is also selected in the finalized list of
+ 100 proposed smart cities by  NDA government with the view of developing urban infrastructure and industrial investment in the
+ listed cities.</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="tab_name">
+        <item>History</item>
+        <item>Gallery</item>
+        <item>Tickets</item>
+        <item>Contact</item>
+    </string-array>
+</resources>

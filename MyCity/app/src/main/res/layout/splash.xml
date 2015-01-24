@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#E91E63">
+    <ImageView android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:src="@drawable/splash"
+        android:scaleType="centerCrop"
+        />
+</LinearLayout>
+
+

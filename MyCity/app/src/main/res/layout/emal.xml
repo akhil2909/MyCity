@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_mail"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+     >
+
+    <EditText
+        android:visibility="gone"
+        android:id="@+id/editTextTo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="swapna@countryclubmail.com"
+        android:inputType="textEmailAddress" >
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editsubject"
+        android:layout_width="wrap_content"
+        android:hint="Subject :" android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editTextTo"
+        android:ems="10" >
+        <requestFocus />
+    </EditText>
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:hint="Message"
+        android:layout_below="@+id/editsubject"
+        android:inputType="textMultiLine"
+        android:lines="5" >
+        <requestFocus />
+    </EditText>
+    <LinearLayout
+        android:layout_below="@+id/editTextMessage"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" >
+
+        <Button
+            android:id="@+id/send_email"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Send" />
+        <Button
+            android:id="@+id/send_cancel"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel" />
+    </LinearLayout>
+</RelativeLayout>
+   
